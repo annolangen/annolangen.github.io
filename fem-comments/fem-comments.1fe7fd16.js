@@ -100,7 +100,7 @@ ${s}${e.content}
       class="inline"
       @click=${()=>{e.score--,ei()}}
     >
-      <img src="./images/icon-minus.svg" alt="minus" />
+      <img src="./images/icon-minus.svg" class="inline" alt="minus" />
     </button>
   </span>
 `}
@@ -188,4 +188,4 @@ ${s}${e.content}
   </div>
 `:null}
   </section>`,document.body);window.onclick=window.oninput=ec,ec(),setInterval(ec,1e3);
-//# sourceMappingURL=fem-comments.a0baccaa.js.map
+//# sourceMappingURL=fem-comments.1fe7fd16.js.map
