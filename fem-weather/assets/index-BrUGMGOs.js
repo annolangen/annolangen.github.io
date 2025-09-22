@@ -147,9 +147,12 @@
         aria-controls="unit-menu"
         class="flex cursor-pointer list-none items-center gap-2 rounded-lg bg-neutral-800 px-4 py-2"
       >
-        <img src="/assets/images/icon-units.svg" alt="Units" />
+        <img src="./assets/images/icon-units.svg" alt="Units" />
         <span class="text-neutral-400">Units</span>
-        <img src="/assets/images/icon-dropdown.svg" alt="Open unit selection" />
+        <img
+          src="./assets/images/icon-dropdown.svg"
+          alt="Open unit selection"
+        />
       </summary>
       <div class="absolute top-full right-0 z-10 mt-2 w-full min-w-max">
         <ul id="unit-menu" role="menu" class="rounded-lg bg-neutral-800 p-2">
@@ -181,7 +184,7 @@
   `}const Fe=({state:s,actions:t})=>g`
   <main class="container mx-auto p-4 lg:max-w-screen-xl">
     <div class="m-4 flex items-center justify-between">
-      <img src="/assets/images/logo.svg" alt="Weather Now" class="max-w-1/3" />
+      <img src="./assets/images/logo.svg" alt="Weather Now" class="max-w-1/3" />
       ${Ie({actions:t})}
     </div>
 
